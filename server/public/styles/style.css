@@ -1,0 +1,36 @@
+#pic{
+  height: 450px;
+}
+
+#jumb{
+  height: 150px;
+  background-color: salmon;
+}
+
+h1{
+  font-family: 'Kranky', serif;
+}
+
+body{
+  background-color: papayawhip;
+}
+
+.btn{
+  background-color: white;
+}
+
+#foot{
+  background-color: salmon;
+  height: 50px;
+  padding-top: 10px;
+}
+
+#head{
+  background-color: salmon;
+  height: 50px;
+  padding-top: 8px;
+}
+
+.home{
+  font-size: 50px;
+}
