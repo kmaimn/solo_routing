@@ -26,14 +26,18 @@ myApp.config(['$routeProvider', function($routeProvider) {
 
 myApp.controller('toffeeController', ['$scope', function ($scope) {
   console.log('Mr. Toffee');
+  $scope.message = "Hello, Mr. Toffee!";
 }]);
 
 myApp.controller('yetiController', ['$scope', function ($scope) {
   console.log('Mr. Yeti');
+  $scope.message = "Hello, Mr. Yeti!";
 }]);
 
 myApp.controller('tiffiController', ['$scope', function ($scope) {
   console.log('Tiffi');
+  $scope.message = "Hello, Tiffi!";
+
 }]);
 
 myApp.controller('homeController', ['$scope', function ($scope) {
